@@ -1,0 +1,17 @@
+Tarjeta del RFID:
+***************************
+Tarjeta leída. El número de UID (identificador) es:
+ 11 FC 73 23
+***************************
+
+Llavero del RFID:
+***************************
+Tarjeta leída. El número de UID (identificador) es:
+ 31 C3 29 26
+***************************
+
+Tarjeta del ITESO:
+***************************
+Tarjeta leída. El número de UID (identificador) es:
+ A6 05 35 32
+***************************

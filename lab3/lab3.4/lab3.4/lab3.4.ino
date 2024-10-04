@@ -20,14 +20,14 @@ void setup() {
   pinMode(echoPin, INPUT);  // Establece el pin de Echo como entrada
 
   // Inicia el display OLED, verifica la conexión
-  if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println(F("SSD1306 allocation failed"));
-    for(;;); // Bucle infinito si falla la inicialización
+    for (;;); // Bucle infinito si falla la inicialización
   }
   display.clearDisplay(); // Limpia la pantalla
   display.setTextSize(1); // Establece el tamaño del texto
   display.setTextColor(WHITE); // Establece el color del texto
-  display.setCursor(0,0); // Posiciona el cursor
+  display.setCursor(0, 0); // Posiciona el cursor
   display.println("Iniciando sensor..."); // Muestra mensaje inicial
   display.display(); // Actualiza la pantalla
   delay(2000); // Retardo inicial
@@ -45,7 +45,7 @@ void loop() {
 
   // Muestra la distancia en el OLED
   display.clearDisplay();
-  display.setCursor(0,0);
+  display.setCursor(0, 0);
   display.print("Distancia: ");
   display.print(distanceCm);
   display.println(" cm");
