@@ -1,0 +1,6 @@
+1. no me parece muy preciso, debido a que tenian diferencia  uno 6-7 grados.
+2. 25% aprox
+3. la 5.1 solo es por mqtt a un cliente, la 5.2 ya es a un servicio cloud.
+4. ubidots porque es la que usamos siempre así que ya le entiendo más.
+5. Sirve para poder acceder a los datos que recolecte el dispositivo IoT en tiempo real como administrador y saber que poder hacer con ellos.
+6. mi IDE de Arduino no muestra el numero de linea pero esta dentro del loop un serial para la temp del API.
